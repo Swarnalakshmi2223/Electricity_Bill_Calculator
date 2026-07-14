@@ -1,0 +1,100 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:aliceblue;
+}
+
+h1{
+    margin-top: 15px;
+    color: black;
+    text-align: center;
+    font-size: 38px;
+}
+
+#billForm{
+
+   
+    width: 700px;
+    height: 550px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding-left: 30px;
+    padding-right: 8px;
+    padding-top: 30px;
+    margin-top: 40px;
+    gap: 30px;
+    font-size: 18px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid rgb(12, 154, 201);
+    border-radius: 5px;
+    height: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+#calculate{
+    background-color: rgb(14, 148, 193);
+    border:none;
+    border-radius: 5px;
+    color:white;
+    width: 45%;
+    padding: 10px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+      margin-left: 10px;
+}
+
+#calculate:hover{
+    background-color: rgb(81, 187, 222);
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#reset{
+
+    background-color: rgb(102, 100, 100);
+    color:white;
+    margin-left: 20px;
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+#reset:hover{
+    background-color: rgb(102, 100, 100);
+    opacity: 0.8;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#display{
+   
+    margin-top: 30px;
+    margin-left:10px;
+    background-color:aliceblue;
+    border-radius: 10px;
+    width: 91%;
+    height: 140px;
+    padding-left: 20px; 
+    padding-top:10px;
+    padding-bottom:10px;
+    box-shadow: 0 0 10px rgba(187, 185, 185, 0.1);
+}
+    
